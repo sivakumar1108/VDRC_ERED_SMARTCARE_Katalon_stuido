@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>subscriber not in these 3 tables:
+ENBA_CCR_DD_ELIGIBILITY , ENBA_TRANSACTION_SENT  and ECAP_ENBA.DD_IVR_SUBSCRIBER_INPUT</description>
+   <name>TC_008_Verify customer not in database and providing input</name>
+   <tag>Negative scenario</tag>
+   <comment></comment>
+   <testCaseGuid>fc970447-b3d0-49f6-8273-6ee8d31966a5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entry is there in ENBA_CCR_DD_ELIGIBILITY but not in ENBA_TRANSACTION_SENT with today date.</description>
+   <name>TC_006_Verify customer should not get reward when he is eligible but does not have reward</name>
+   <tag>Verify customer should not get reward when he is eligible but does not have reward</tag>
+   <comment></comment>
+   <testCaseGuid>45502390-2f1b-4729-b22e-af0c2e27f695</testCaseGuid>
+</TestCaseEntity>

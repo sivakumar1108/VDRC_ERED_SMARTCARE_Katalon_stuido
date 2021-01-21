@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the customer Not available for this</description>
+   <name>TC_003_Verify the customer Not available for this</name>
+   <tag>Verify the customer Not available for this</tag>
+   <comment></comment>
+   <testCaseGuid>cf733768-15e7-48ff-9fe2-1adc1ad53668</testCaseGuid>
+</TestCaseEntity>

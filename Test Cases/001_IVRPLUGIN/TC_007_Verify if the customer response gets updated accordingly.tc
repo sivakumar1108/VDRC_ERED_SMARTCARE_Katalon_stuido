@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the Oracle DB with below query:
+SELECT * FROM ECAP_ENBA.DD_IVR_SUBSCRIBER_INPUT ORDER BY 2 desc;</description>
+   <name>TC_007_Verify if the customer response gets updated accordingly</name>
+   <tag>Verify if the customer response gets updated accordingly</tag>
+   <comment></comment>
+   <testCaseGuid>e28d72d5-0f71-4334-a861-2f48d3279bfb</testCaseGuid>
+</TestCaseEntity>

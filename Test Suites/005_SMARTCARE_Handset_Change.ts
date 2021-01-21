@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Smart care Handset change</description>
+   <name>005_SMARTCARE_Handset_Change</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>8129f220-4813-4bdd-bea4-3276d39c3ba3</testSuiteGuid>
+   <testCaseLink>
+      <guid>2aa24f90-0bcf-4f69-b9ef-1cc361b5ca6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/005_SMARTCARE_Handset_change/001_From 2G Handset to 3G Handset_CEP_ypeijia_20200424151807864_VDCP_CAM_HANDSET_SMART</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>478e642d-c731-4960-b1a6-d730a81df71b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c50b91c-02bd-433c-8a66-0be8415a10a6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38df10f7-5349-400a-bf93-6bc0faf0427a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/005_SMARTCARE_Handset_change/002_From 2G Handset to 4G Capable Handset_VDCP_CAM_HANDSET_LTE</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb0b980f-538d-4342-b0d7-0d2112488f3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3522c78a-8cb1-42c2-8689-44bd65c18ab2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a865cd0-ccca-4de1-a4e5-b21237bc9162</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/005_SMARTCARE_Handset_change/003_From_Smartphone_to_LTE_VDCP_CAM_HANDSET_LTE_CEP_ypeijia_20200429120844195</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5aa9f9f5-8810-4455-819b-54af8d404499</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ca82fbd3-470b-455f-91d3-0e29c4bd2ad0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

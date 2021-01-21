@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifying the Inactive smartcare for TT profile and 7 days customer &quot;SEGMENT_DAYS&quot;:7</description>
+   <name>001_Inactive_user_TT_profile_VDCP_04_Segment_7Days_5SMS</name>
+   <tag>VDCP_04_Segment_7Days_5SMS</tag>
+   <comment></comment>
+   <testCaseGuid>1d2699dd-62c6-4f32-9a33-f9d8423e3d1d</testCaseGuid>
+</TestCaseEntity>

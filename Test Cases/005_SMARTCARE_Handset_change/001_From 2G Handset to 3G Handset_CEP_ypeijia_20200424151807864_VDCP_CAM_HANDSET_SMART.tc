@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Segment 1:
+VDCP_HandSetChange_SmartPhone_Seg1 for the event type &quot;CEP_ypeijia_20200424151807864&quot;.
+>> From 2G Handset to 3G Handset. &amp; &lt;event_type>CEP_ypeijia_20200424151807864&lt;/event_type></description>
+   <name>001_From 2G Handset to 3G Handset_CEP_ypeijia_20200424151807864_VDCP_CAM_HANDSET_SMART</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>489b666b-0918-4fe1-953d-1a2da1ca3e6d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.handsetmsisdn</defaultValue>
+      <description></description>
+      <id>478e642d-c731-4960-b1a6-d730a81df71b</id>
+      <masked>false</masked>
+      <name>handsetmsisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.handseteventtype</defaultValue>
+      <description></description>
+      <id>0c50b91c-02bd-433c-8a66-0be8415a10a6</id>
+      <masked>false</masked>
+      <name>handseteventtype</name>
+   </variable>
+</TestCaseEntity>

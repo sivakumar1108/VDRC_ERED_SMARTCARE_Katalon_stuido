@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VDCP_URL_FACEBOOK_IM
+ Communication: Avec Vodacom, reste proche des tiens en te connectant gratuitement sur Facebook a tout moment et partout que tu sois en RDC. m.facebook.com/?ref=vdc_drc2
+ prot_type=3119,3643.</description>
+   <name>001_Facebook_IM</name>
+   <tag>Facebook_IM , VDCP_URL_FACEBOOK_IM</tag>
+   <comment></comment>
+   <testCaseGuid>6e6d16a0-e3c2-4411-a6ab-7a2807a54ead</testCaseGuid>
+</TestCaseEntity>

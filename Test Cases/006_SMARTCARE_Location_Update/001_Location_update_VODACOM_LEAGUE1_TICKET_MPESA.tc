@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Location Update campaign VODACOM_LEAGUE1_TICKET_MPESA only comms</description>
+   <name>001_Location_update_VODACOM_LEAGUE1_TICKET_MPESA</name>
+   <tag>VODACOM_LEAGUE1_TICKET_MPESA</tag>
+   <comment></comment>
+   <testCaseGuid>331282b4-1d9e-41dd-8a76-78e11dead36f</testCaseGuid>
+</TestCaseEntity>

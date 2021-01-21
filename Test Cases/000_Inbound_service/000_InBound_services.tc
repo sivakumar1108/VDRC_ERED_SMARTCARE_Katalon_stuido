@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Recharge
+Bundle purchase
+Accthreshold
+Lowbalancethreshold
+DMCdeviceactivation</description>
+   <name>000_InBound_services</name>
+   <tag>Inbound services</tag>
+   <comment></comment>
+   <testCaseGuid>e3553a8a-0d03-47df-a32d-c64c6dda63b1</testCaseGuid>
+</TestCaseEntity>
