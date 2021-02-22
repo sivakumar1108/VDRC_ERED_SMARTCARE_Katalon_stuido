@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Bundle purchase</name>
+   <name>Auto_Bundle purchase</name>
    <tag></tag>
-   <elementGuidId>10bd2d86-9730-4b8d-9b98-26a49548fccf</elementGuidId>
+   <elementGuidId>a734f195-1a9d-4402-b684-d9c0b1cb7dd9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -29,7 +29,7 @@
       &lt;cbs:WorkOrder>
          &lt;WorkOrderRequest>
             &lt;msg:WorkOrderType>29&lt;/msg:WorkOrderType>
-            &lt;msg:SubscriberNo>825371945&lt;/msg:SubscriberNo>
+            &lt;msg:SubscriberNo>${BP_300_msisdn}&lt;/msg:SubscriberNo>
             &lt;msg:operationCode>uvs&lt;/msg:operationCode>
             &lt;msg:password>******&lt;/msg:password>
             &lt;msg:AccessMode>8&lt;/msg:AccessMode>
@@ -55,7 +55,7 @@
             &lt;/msg:ParaList>
             &lt;msg:ProductOrderInfoList>
                &lt;msg:ProductOrderInfo>
-                  &lt;msg:ProductID>117&lt;/msg:ProductID>
+                  &lt;msg:ProductID>${BP_PRODUCT_ID}&lt;/msg:ProductID>
                   &lt;msg:ProductOrderKey>999000002754891558&lt;/msg:ProductOrderKey>
                   &lt;msg:EffectiveDate>20171104093853&lt;/msg:EffectiveDate>
                   &lt;msg:ExpireDate>20180726105000&lt;/msg:ExpireDate>
@@ -64,7 +64,7 @@
             &lt;/msg:ProductOrderInfoList>
             &lt;msg:OfferOrderInfoList>
                &lt;msg:OfferOrderInfo>
-                  &lt;msg:OfferId>117&lt;/msg:OfferId>
+                  &lt;msg:OfferId>${BP_PRODUCT_ID}&lt;/msg:OfferId>
                   &lt;msg:OfferOrderKey>2746676979&lt;/msg:OfferOrderKey>
                   &lt;msg:EffectiveDate>20171104093853&lt;/msg:EffectiveDate>
                   &lt;msg:ExpireDate>20180725105000&lt;/msg:ExpireDate>
@@ -87,6 +87,20 @@
       <id>56a0df6c-5ba3-41ca-8def-b902b236622c</id>
       <masked>false</masked>
       <name>Bundlepurchase_Url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.BP_300_msisdn</defaultValue>
+      <description></description>
+      <id>8ce2a8fc-327b-4172-9976-0b145633b098</id>
+      <masked>false</masked>
+      <name>BP_300_msisdn</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.BP_PRODUCT_ID</defaultValue>
+      <description></description>
+      <id>6bba33b6-b9b1-48e1-8b22-6fa9f28582cb</id>
+      <masked>false</masked>
+      <name>BP_PRODUCT_ID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -29,7 +29,7 @@
       &lt;cbs:WorkOrder>
          &lt;WorkOrderRequest>
             &lt;msg:WorkOrderType>142&lt;/msg:WorkOrderType>
-            &lt;msg:SubscriberNo>987654321&lt;/msg:SubscriberNo>
+            &lt;msg:SubscriberNo>825371945&lt;/msg:SubscriberNo>
             &lt;msg:operationCode>uvs&lt;/msg:operationCode>
             &lt;msg:password>**a****&lt;/msg:password>
             &lt;msg:AccessMode>8&lt;/msg:AccessMode>
@@ -41,7 +41,7 @@
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>CurrentPPSBalance&lt;/msg:ParaName>
-                  &lt;msg:ParaValue>1200000&lt;/msg:ParaValue>
+                  &lt;msg:ParaValue>1175000&lt;/msg:ParaValue>
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>TradeTime&lt;/msg:ParaName>
@@ -53,7 +53,7 @@
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>RechargeAmount&lt;/msg:ParaName>
-                  &lt;msg:ParaValue>500000&lt;/msg:ParaValue>
+                  &lt;msg:ParaValue>850000&lt;/msg:ParaValue>
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>LoanFlag&lt;/msg:ParaName>

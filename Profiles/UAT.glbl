@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://j4uapitest.vodacom.cd:9443/APIOffers/J4U/getOffer'</initValue>
+      <initValue>'http://j4uapitest.vodacom.cd:8443/APIOffers/J4U/getOffer'</initValue>
       <name>j4u_Apioffer_Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -138,5 +138,60 @@
       <description></description>
       <initValue>''</initValue>
       <name>recharge_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>REC_ML_TGT_MSISDN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>RECH_ML_TGT_PPSBALANCE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>RECH_ML_TGT_RechargeAmount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BP_300_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BP_PRODUCT_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>acc_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>low_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>low_acct_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>low_acct_balance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dmc_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dmc_imei</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
