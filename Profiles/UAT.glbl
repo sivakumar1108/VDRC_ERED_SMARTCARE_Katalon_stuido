@@ -31,8 +31,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://j4uapitest.vodacom.cd:8443/APIOffers/J4U/getOffer'</initValue>
+      <initValue>'https://j4uapitest.vodacom.cd:8443/APIOffers/J4U/getOffer'</initValue>
       <name>j4u_Apioffer_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'243123412222'</initValue>
+      <name>j4u_Apioffer_target_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123411111'</initValue>
+      <name>j4u_Apioffer_random_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'243123413333'</initValue>
+      <name>j4u_Apioffer_target_cache</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -108,6 +123,11 @@
       <description></description>
       <initValue>''</initValue>
       <name>prot_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>drop_msisdn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -193,5 +213,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>dmc_imei</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rag_msisdn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rag_rech_amnt</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>j4u-Data</name>
+   <name>Smartcare-dropcall_automation</name>
    <tag></tag>
-   <elementGuidId>f5b7495b-926b-43b3-be3f-b32f43279d64</elementGuidId>
+   <elementGuidId>89eb7aed-2420-4b2f-b197-f674eb3c69af</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{  \&quot;username\&quot; : \&quot;comj4u\&quot;,\n \&quot;password\&quot; : \&quot;j4u@456\&quot;,\n \&quot;MSISDN\&quot; : \&quot;243987654321\&quot;,\n \&quot;Category\&quot;: \&quot;Data\&quot;,\n \&quot;Channel\&quot; : \&quot;WEB\&quot;,\n \&quot;Language\&quot; : \&quot;en\&quot;,\n \&quot;RefNum\&quot; : \&quot;APP1528376639790\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;text&quot;: &quot;\u003csoapenv:Envelope xmlns:soapenv\u003d\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot; xmlns:v1\u003d\&quot;http://seq.huawei.com/interface/dsi/v1.1\&quot;\u003e\n\u003csoapenv:RequestHeader\u003e\n\t\u003creqTime\u003e2020-11-21 04:06:01\u003c/reqTime\u003e\n\t\u003c/soapenv:RequestHeader\u003e\n \u003csoapenv:RequestBody\u003e\n\n                   \u003cDropUserList\u003e\n                   \u003cUser\u003e\n                     \u003cstarttime\u003e2020-10-11 10:03:04\u003c/starttime\u003e\n                     \u003cmsisdn\u003e${drop_msisdn}\u003c/msisdn\u003e\n                     \u003cimsi\u003e630010479056591\u003c/imsi\u003e\n                     \u003cimei\u003e358589086784963\u003c/imei\u003e\n                     \u003ccell_id\u003e62001234CED1D\u003c/cell_id\u003e\n                     \u003clayer2id\u003e10\u003c/layer2id\u003e\n                     \u003cpeer_number\u003e827146055\u003c/peer_number\u003e\n                     \u003csrv_type\u003emoc\u003c/srv_type\u003e\n                     \u003crat\u003e2\u003c/rat\u003e\n                   \u003c/User\u003e\n                   \u003c/DropUserList\u003e\n \u003c/soapenv:RequestBody\u003e\n\u003c/soapenv:Envelope\u003e&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>username</name>
-      <type>Main</type>
-      <value>comj4u</value>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>password</name>
-      <type>Main</type>
-      <value>j4u@456</value>
+      <value>text/plain</value>
    </httpHeaderProperties>
    <katalonVersion>7.8.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${j4u_Apioffer_Url}</restUrl>
+   <restUrl>${smartcare_url}/SmartCarePlugin/WSDLLoader?group=CALLDROP</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,25 +36,18 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.j4u_Apioffer_Url</defaultValue>
+      <defaultValue>GlobalVariable.drop_msisdn</defaultValue>
       <description></description>
-      <id>ea7ca15c-114a-4039-b54a-3b093dc09d13</id>
+      <id>b7189871-6c96-4259-a93f-720112c4f939</id>
       <masked>false</masked>
-      <name>j4u_Apioffer_Url</name>
+      <name>drop_msisdn</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.j4u_Apioffer_target_msisdn</defaultValue>
+      <defaultValue>GlobalVariable.smartcare_url</defaultValue>
       <description></description>
-      <id>dc35415c-f113-43a2-a295-fe83b7ff68c5</id>
+      <id>7202a45c-1e89-4896-9c76-19a1fe623356</id>
       <masked>false</masked>
-      <name>j4u_Apioffer_target_msisdn</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.j4u_Apioffer_random_msisdn</defaultValue>
-      <description></description>
-      <id>b7080107-d890-40fe-bfb2-54cff76a8bff</id>
-      <masked>false</masked>
-      <name>j4u_Apioffer_random_msisdn</name>
+      <name>smartcare_url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

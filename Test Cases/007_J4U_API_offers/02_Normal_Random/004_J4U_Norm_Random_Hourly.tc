@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>for random customer</description>
+   <name>004_J4U_Norm_Random_Hourly</name>
+   <tag>api offers random customer Data</tag>
+   <comment></comment>
+   <testCaseGuid>2f613d45-01ea-482b-a7be-6853ce28a3e0</testCaseGuid>
+</TestCaseEntity>
