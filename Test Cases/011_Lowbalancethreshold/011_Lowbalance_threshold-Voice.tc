@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the lowbalance threshold balance campaign flow.</description>
+   <name>011_Lowbalance_threshold-Voice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c13271ed-2f85-4b47-8e0d-19de6122de8f</testCaseGuid>
+</TestCaseEntity>

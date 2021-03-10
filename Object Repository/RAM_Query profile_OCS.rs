@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Query profile</name>
+   <name>RAM_Query profile_OCS</name>
    <tag></tag>
-   <elementGuidId>c7455307-a30f-4a3a-9a2d-b96e55c700f0</elementGuidId>
+   <elementGuidId>a3cbcc7c-706a-4f79-984f-f2042a5a62b3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;group\&quot;:\&quot;QueryMgrService\&quot;,\&quot;END_POINT\&quot;:\&quot;QueryMgrService\&quot;,\&quot;MSISDN\&quot;:\&quot;814444589\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;group\&quot;:\&quot;QueryMgrService\&quot;,\&quot;END_POINT\&quot;:\&quot;QueryMgrService\&quot;,\&quot;MSISDN\&quot;:\&quot;825371945\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

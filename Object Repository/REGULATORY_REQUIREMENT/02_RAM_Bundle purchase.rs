@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Bundle purchase</name>
+   <name>02_RAM_Bundle purchase</name>
    <tag></tag>
-   <elementGuidId>10bd2d86-9730-4b8d-9b98-26a49548fccf</elementGuidId>
+   <elementGuidId>c828cfd3-fcb6-4a89-a049-da2fb67e1929</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -29,7 +29,7 @@
       &lt;cbs:WorkOrder>
          &lt;WorkOrderRequest>
             &lt;msg:WorkOrderType>29&lt;/msg:WorkOrderType>
-            &lt;msg:SubscriberNo>${msisdn}&lt;/msg:SubscriberNo>
+            &lt;msg:SubscriberNo>${RAM_MSISDN}&lt;/msg:SubscriberNo>
             &lt;msg:operationCode>uvs&lt;/msg:operationCode>
             &lt;msg:password>******&lt;/msg:password>
             &lt;msg:AccessMode>8&lt;/msg:AccessMode>
@@ -55,7 +55,7 @@
             &lt;/msg:ParaList>
             &lt;msg:ProductOrderInfoList>
                &lt;msg:ProductOrderInfo>
-                  &lt;msg:ProductID>${product_id}&lt;/msg:ProductID>
+                  &lt;msg:ProductID>${RAM_Bundle}&lt;/msg:ProductID>
                   &lt;msg:ProductOrderKey>999000002754891558&lt;/msg:ProductOrderKey>
                   &lt;msg:EffectiveDate>20171104093853&lt;/msg:EffectiveDate>
                   &lt;msg:ExpireDate>20180726105000&lt;/msg:ExpireDate>
@@ -64,7 +64,7 @@
             &lt;/msg:ProductOrderInfoList>
             &lt;msg:OfferOrderInfoList>
                &lt;msg:OfferOrderInfo>
-                  &lt;msg:OfferId>${product_id}&lt;/msg:OfferId>
+                  &lt;msg:OfferId>${RAM_Bundle}&lt;/msg:OfferId>
                   &lt;msg:OfferOrderKey>2746676979&lt;/msg:OfferOrderKey>
                   &lt;msg:EffectiveDate>20171104093853&lt;/msg:EffectiveDate>
                   &lt;msg:ExpireDate>20180725105000&lt;/msg:ExpireDate>
@@ -89,18 +89,18 @@
       <name>Bundlepurchase_Url</name>
    </variables>
    <variables>
-      <defaultValue>'825371945'</defaultValue>
+      <defaultValue>GlobalVariable.RAM_MSISDN</defaultValue>
       <description></description>
       <id>e020a813-def8-4d3f-aeec-5a2810c312a3</id>
       <masked>false</masked>
-      <name>msisdn</name>
+      <name>RAM_MSISDN</name>
    </variables>
    <variables>
-      <defaultValue>'017'</defaultValue>
+      <defaultValue>GlobalVariable.RAM_Bundle</defaultValue>
       <description></description>
       <id>e3d20f3b-f272-4d29-ae98-1b66d5001beb</id>
       <masked>false</masked>
-      <name>product_id</name>
+      <name>RAM_Bundle</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

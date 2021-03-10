@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Recharge</name>
+   <name>03_RAM_Recharge</name>
    <tag></tag>
-   <elementGuidId>47ec9d8d-81a9-4847-b29f-9a5980bdd32d</elementGuidId>
+   <elementGuidId>27b595ee-9886-4a33-8b78-e486afb8e663</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -29,7 +29,7 @@
       &lt;cbs:WorkOrder>
          &lt;WorkOrderRequest>
             &lt;msg:WorkOrderType>142&lt;/msg:WorkOrderType>
-            &lt;msg:SubscriberNo>${msisdn}&lt;/msg:SubscriberNo>
+            &lt;msg:SubscriberNo>${RAM_MSISDN}&lt;/msg:SubscriberNo>
             &lt;msg:operationCode>uvs&lt;/msg:operationCode>
             &lt;msg:password>**a****&lt;/msg:password>
             &lt;msg:AccessMode>8&lt;/msg:AccessMode>
@@ -37,7 +37,7 @@
             &lt;msg:ParaList>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>TansactionType&lt;/msg:ParaName>
-                  &lt;msg:ParaValue>${TansactionType}&lt;/msg:ParaValue>
+                  &lt;msg:ParaValue>${RAM_TansactionType}&lt;/msg:ParaValue>
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>CurrentPPSBalance&lt;/msg:ParaName>
@@ -53,7 +53,7 @@
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>RechargeAmount&lt;/msg:ParaName>
-                  &lt;msg:ParaValue>${rechargeamount}&lt;/msg:ParaValue>
+                  &lt;msg:ParaValue>${RAM_Recharge}&lt;/msg:ParaValue>
                &lt;/msg:ParaItem>
                &lt;msg:ParaItem>
                   &lt;msg:ParaName>LoanFlag&lt;/msg:ParaName>
@@ -103,25 +103,25 @@
       <name>Recharge_url</name>
    </variables>
    <variables>
-      <defaultValue>'825371945'</defaultValue>
+      <defaultValue>GlobalVariable.RAM_MSISDN</defaultValue>
       <description></description>
       <id>f1f32c06-06b3-4a18-ac25-8ce197e6027c</id>
       <masked>false</masked>
-      <name>msisdn</name>
+      <name>RAM_MSISDN</name>
    </variables>
    <variables>
-      <defaultValue>'510000'</defaultValue>
+      <defaultValue>GlobalVariable.RAM_Recharge</defaultValue>
       <description></description>
       <id>9b8bcf76-3f95-48e8-8875-97d2d019dec2</id>
       <masked>false</masked>
-      <name>rechargeamount</name>
+      <name>RAM_Recharge</name>
    </variables>
    <variables>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>GlobalVariable.RAM_TansactionType</defaultValue>
       <description></description>
       <id>84aea0dc-04bf-459c-9602-7a6bfe6632fe</id>
       <masked>false</masked>
-      <name>TansactionType</name>
+      <name>RAM_TansactionType</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
