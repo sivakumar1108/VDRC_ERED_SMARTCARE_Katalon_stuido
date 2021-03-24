@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RAM_JAIL_with_combi_Profile_test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>bf004012-c611-438e-a839-cb01dd35fb6d</testSuiteGuid>
+   <testCaseLink>
+      <guid>937accd5-3ffc-4bf6-963d-5f8027c1a7d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/014_Regulatory_Requirement_RAM/004_RAM_JAIL</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0ace7e8-a01e-4597-8f3a-63b28340da33</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-34</value>
+         </iterationEntity>
+         <testDataId>Data Files/RAM_JAIL_PROFILE</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c0ace7e8-a01e-4597-8f3a-63b28340da33</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PRODUCT_ID</value>
+         <variableId>e300b026-5a3f-4625-9a5a-d1f60d8de351</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0ace7e8-a01e-4597-8f3a-63b28340da33</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SUBCOSID</value>
+         <variableId>ec041616-c8f2-4ad2-a69e-847a66e00339</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -226,7 +226,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'814444589'</initValue>
+      <initValue>'825371945'</initValue>
       <name>RAM_MSISDN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -248,5 +248,10 @@
       <description></description>
       <initValue>'http://10.10.20.40:7782/services/QueryMgrService.QueryMgrServiceSoap12Port/'</initValue>
       <name>RAM_Query_Endpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>RAM_SUBCOSID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

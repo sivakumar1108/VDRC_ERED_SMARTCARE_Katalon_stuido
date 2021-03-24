@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifying the Inactive smartcare for TT profile and 7 days customer &quot;SEGMENT_DAYS&quot;:7</description>
+   <name>004_RAM_JAIL_5000036</name>
+   <tag>VDCP_04_Segment_7Days_5SMS</tag>
+   <comment></comment>
+   <testCaseGuid>737b4c14-3bc3-4016-acee-aad41b4c49a7</testCaseGuid>
+</TestCaseEntity>

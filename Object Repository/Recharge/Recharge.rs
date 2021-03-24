@@ -6,7 +6,7 @@
    <elementGuidId>47ec9d8d-81a9-4847-b29f-9a5980bdd32d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -19,7 +19,7 @@
       <value>text/xml; charset=utf-8</value>
    </httpHeaderProperties>
    <katalonVersion>7.8.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -93,7 +93,7 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>${Recharge_url}</soapServiceEndpoint>
    <soapServiceFunction>Work</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.Recharge_Url</defaultValue>
@@ -103,14 +103,14 @@
       <name>Recharge_url</name>
    </variables>
    <variables>
-      <defaultValue>'825371945'</defaultValue>
+      <defaultValue>'987654321'</defaultValue>
       <description></description>
       <id>f1f32c06-06b3-4a18-ac25-8ce197e6027c</id>
       <masked>false</masked>
       <name>msisdn</name>
    </variables>
    <variables>
-      <defaultValue>'510000'</defaultValue>
+      <defaultValue>'500000'</defaultValue>
       <description></description>
       <id>9b8bcf76-3f95-48e8-8875-97d2d019dec2</id>
       <masked>false</masked>

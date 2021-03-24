@@ -21,7 +21,7 @@ Old_Profile_ID = WS.getElementPropertyValue(Old_Profile, 'QuerySubCosIDResultMsg
 
 println(Old_Profile_ID)
 
-WS.comment('Amount adjustment should happen like this,paste into calculator and see the results = 1170000 - 170000 + 170000 + 1170000 - 340000 + 170000 + 1170000 - 170000')
+WS.comment('Amount adjustment should happen like this,paste into calculator and see the results = 1170000-170000+150000+1150000-340000+170000+1170000-170000')
 
 GlobalVariable.RAM_Bundle = '117'
 
@@ -47,19 +47,19 @@ WS.comment('After this RAM_DEBT wallet should be  = 1000000')
 
 WS.delay(30)
 
-GlobalVariable.RAM_Bundle = '017'
+GlobalVariable.RAM_Bundle = '015'
 
 WS.sendRequest(findTestObject('REGULATORY_REQUIREMENT/02_RAM_Bundle purchase'))
 
-WS.comment('After this RAM_DEBT wallet should be  = 1170000')
+WS.comment('After this RAM_DEBT wallet should be  = 1150000')
 
 WS.delay(30)
 
-GlobalVariable.RAM_Bundle = '117'
+GlobalVariable.RAM_Bundle = '115'
 
 WS.sendRequest(findTestObject('REGULATORY_REQUIREMENT/02_RAM_Bundle purchase'))
 
-WS.comment('After this RAM_DEBT wallet should be  = 2340000')
+WS.comment('After this RAM_DEBT wallet should be  = 2300000')
 
 WS.delay(30)
 
@@ -67,7 +67,7 @@ GlobalVariable.RAM_Recharge = '340000'
 
 WS.sendRequest(findTestObject('REGULATORY_REQUIREMENT/03_RAM_Recharge'))
 
-WS.comment('After this RAM_DEBT wallet should be  = 2000000')
+WS.comment('After this RAM_DEBT wallet should be  = 1960000')
 
 WS.delay(30)
 
@@ -75,7 +75,7 @@ GlobalVariable.RAM_Bundle = '017'
 
 WS.sendRequest(findTestObject('REGULATORY_REQUIREMENT/02_RAM_Bundle purchase'))
 
-WS.comment('After this RAM_DEBT wallet should be  = 2170000')
+WS.comment('After this RAM_DEBT wallet should be  = 2130000')
 
 WS.delay(30)
 
@@ -83,7 +83,7 @@ GlobalVariable.RAM_Bundle = '117'
 
 WS.sendRequest(findTestObject('REGULATORY_REQUIREMENT/02_RAM_Bundle purchase'))
 
-WS.comment('After this RAM_DEBT wallet should be  = 3340000')
+WS.comment('After this RAM_DEBT wallet should be  = 3300000')
 
 WS.delay(30)
 
@@ -100,5 +100,6 @@ Final_Profile_ID = WS.getElementPropertyValue(Final_Profile, 'QuerySubCosIDResul
 
 println(Final_Profile_ID)
 
-WS.comment('Checking the RAM_DEBT top is happening or not like Fianlly RAM_DEBT value should be = 3170000')
+WS.comment('Checking the RAM_DEBT top is happening or not like Fianlly RAM_DEBT value should be = 3130000')
 
+WS.comment('Incase Recharge cases are failed = 1170000+150000+1150000+170000+1170000   = 3810000')
