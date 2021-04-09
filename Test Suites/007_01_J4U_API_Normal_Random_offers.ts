@@ -12,16 +12,16 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a7d22b96-0f4f-4f3d-899f-6d578174be19</testSuiteGuid>
    <testCaseLink>
-      <guid>311e3156-6c79-4d16-923d-ce27f1987837</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/007_J4U_API_offers/02_Normal_Random/001_J4U_Norm_Random_Voice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8be24426-63ea-437a-879c-601b2248c144</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/007_J4U_API_offers/02_Normal_Random/002_J4U_Norm_Random_Data</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>311e3156-6c79-4d16-923d-ce27f1987837</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/007_J4U_API_offers/02_Normal_Random/001_J4U_Norm_Random_Voice</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5b5f83a8-77dd-4296-aaf3-5e6b0f39b5d2</guid>

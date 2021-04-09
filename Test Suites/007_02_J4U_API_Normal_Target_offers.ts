@@ -12,16 +12,16 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9b902c-bee3-4267-8fca-1c857f57f2cf</testSuiteGuid>
    <testCaseLink>
-      <guid>c2166314-9571-4587-88e6-4de22acae5d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/007_J4U_API_offers/01_Normal_Target/001_J4U_Norm_Target_Voice</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>16221f1c-d6af-4b61-a275-ae4ca7df7146</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/007_J4U_API_offers/01_Normal_Target/002_J4U_Norm_Target_Data</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2166314-9571-4587-88e6-4de22acae5d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/007_J4U_API_offers/01_Normal_Target/001_J4U_Norm_Target_Voice</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>908cea76-ac6c-494e-84fc-50851a3c9a42</guid>

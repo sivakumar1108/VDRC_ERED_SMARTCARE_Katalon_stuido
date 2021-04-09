@@ -206,12 +206,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'987654321'</initValue>
       <name>dmc_msisdn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'351578100496827'</initValue>
       <name>dmc_imei</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

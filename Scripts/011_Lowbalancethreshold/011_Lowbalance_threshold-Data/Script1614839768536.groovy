@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 GlobalVariable.low_msisdn = 123456661
 GlobalVariable.low_acct_type = '5231'
-GlobalVariable.low_acct_balance = '6848512'
+GlobalVariable.low_acct_balance = '4848512'
 
 WS.sendRequest(findTestObject('008_Lowbalance_auto/LowBalance_auto'))
 

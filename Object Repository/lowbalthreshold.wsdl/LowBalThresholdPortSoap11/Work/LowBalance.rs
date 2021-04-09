@@ -60,7 +60,7 @@
                   &lt;msg:AccountCode>25047943&lt;/msg:AccountCode>
                  &lt;msg:AccountType>5231&lt;/msg:AccountType>
                   &lt;msg:NotifyType>2&lt;/msg:NotifyType>
-                &lt;msg:Balance>6848512&lt;/msg:Balance>
+                &lt;msg:Balance>684&lt;/msg:Balance>
                   &lt;msg:ExpireTime>20200705231148&lt;/msg:ExpireTime>
                   &lt;msg:ThresholdLevel>0&lt;/msg:ThresholdLevel>
                   &lt;msg:ThresholdMethod>1&lt;/msg:ThresholdMethod>

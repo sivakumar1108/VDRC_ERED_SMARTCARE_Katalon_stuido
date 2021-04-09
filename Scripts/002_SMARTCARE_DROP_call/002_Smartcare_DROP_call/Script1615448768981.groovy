@@ -15,17 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.drop_msisdn = 123456411
+GlobalVariable.drop_msisdn = '123456111'
 
 GlobalVariable.prot_type = '3119'
 
-WS.sendRequest(findTestObject('003_SMartcare_automation/smartcare-URLVISIT - for Automation'))
+WS.sendRequest(findTestObject('003_SMartcare_automation/Smartcare-dropcall_automation'))
 
 WS.delay(50)
 
-GlobalVariable.drop_msisdn = 123456411
+GlobalVariable.drop_msisdn = '123456111'
 
 GlobalVariable.prot_type = '3119'
 
-WS.sendRequest(findTestObject('003_SMartcare_automation/smartcare-URLVISIT - for Automation'))
+WS.sendRequest(findTestObject('003_SMartcare_automation/Smartcare-dropcall_automation'))
 
