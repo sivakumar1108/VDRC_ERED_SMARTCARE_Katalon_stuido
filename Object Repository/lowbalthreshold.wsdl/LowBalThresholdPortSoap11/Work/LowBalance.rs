@@ -29,7 +29,7 @@
       &lt;cbs:WorkOrder>
          &lt;WorkOrderRequest>
             &lt;msg:WorkOrderType>107&lt;/msg:WorkOrderType>
-            &lt;msg:SubscriberNo>987654321&lt;/msg:SubscriberNo>
+            &lt;msg:SubscriberNo>825371350&lt;/msg:SubscriberNo>
             &lt;msg:operationCode>uvs&lt;/msg:operationCode>
             &lt;msg:password>?&lt;/msg:password>
             &lt;msg:AccessMode>8&lt;/msg:AccessMode>
